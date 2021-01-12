@@ -28,7 +28,7 @@ class Veritas(unittest.TestCase):
         self.driver.find_element_by_name("Submit").click()
 
         # once we clicked the submit button we again verify whether we land on some page or not
-        self.assertEqual("OrangeHRM", self.driver.title, "Webpage title not matching")
+        self.assertEqual("OrangeHRM1", self.driver.title, "Webpage title not matching")
         #self.assertEqual()
 
     @classmethod
@@ -40,5 +40,7 @@ if __name__=='__main__':
     ##unittest.main()
     ## for report generation
     unittest.main(testRunner=HtmlTestRunner.HTMLTestRunner(output='/home/pritesh/PycharmProjects/project1/Report'))
+    # mandatory argument to generate report
+    # in windows double backslash
 
 
