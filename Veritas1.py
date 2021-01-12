@@ -37,5 +37,8 @@ class Veritas(unittest.TestCase):
         print("Test is now completed")
 
 if __name__=='__main__':
-    unittest.main()
+    ##unittest.main()
+    ## for report generation
+    unittest.main(testRunner=HtmlTestRunner.HTMLTestRunner(output='/home/pritesh/PycharmProjects/project1/Report'))
+
 

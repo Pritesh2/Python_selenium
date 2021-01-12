@@ -533,3 +533,18 @@ JavaScript error: resource://gre/modules/URIFixup.jsm, line 281: NS_ERROR_FAILUR
 
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
+1610467042192	geckodriver	INFO	Listening on 127.0.0.1:36901
+1610467042201	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilejWDzdf"
+1610467050476	Marionette	INFO	Listening on port 35285
+1610467050537	Marionette	WARN	TLS certificate errors will be ignored for this session
+1610467070803	Marionette	INFO	Stopped listening on port 35285
+1610467148319	geckodriver	INFO	Listening on 127.0.0.1:39897
+1610467148324	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileXhmsHV"
+1610467152982	Marionette	INFO	Listening on port 36323
+1610467153043	Marionette	WARN	TLS certificate errors will be ignored for this session
+1610467165168	Marionette	INFO	Stopped listening on port 36323
+1610467182135	geckodriver	INFO	Listening on 127.0.0.1:43673
+1610467182140	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileTzZWTU"
+1610467187136	Marionette	INFO	Listening on port 34943
+1610467187163	Marionette	WARN	TLS certificate errors will be ignored for this session
+1610467202182	Marionette	INFO	Stopped listening on port 34943
